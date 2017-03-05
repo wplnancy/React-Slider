@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.banner {
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin: 100px auto;
+    border: 3px solid #ccc;
+}
+
+.bannerInner {
+    width: 4000px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bannerInner div {
+    width: 800px;
+    height: 400px;
+    float: left;
+}
+
+.bannerInner img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    vertical-align: top;
+}
+
+.arrow {
+    display: block;
+    width: 30px;
+    height: 50px;
+    background: url("../images/bg.png") no-repeat left top;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    z-index: 10;
+}
+
+.arrow-right {
+    right: 0;
+    background-position: -48px 0;
+}
+
+.focusList {
+    position: absolute;
+    z-index: 12;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+
+.focusList li {
+    width: 18px;
+    height: 18px;
+    float: left;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 2px 5px;
+}
+
+.focusList li.active {
+    background: red;
+}
