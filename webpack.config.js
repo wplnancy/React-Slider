@@ -1,6 +1,6 @@
 var path = require("path");
 var htmlWebpackPlugin = require("html-webpack-plugin");
-console.log('1', 1)
+console.log('1', 2)
 module.exports = {
     entry: "./src/index.js",
     output: {
